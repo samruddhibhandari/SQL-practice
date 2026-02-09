@@ -7,7 +7,7 @@ name varchar(50),
 email varchar(100) unique,
 age int not null);
 
-
+-- another syntax for primary key(composite primary key)
 create table employee(
 emp_id int,
 name varchar(50),
@@ -21,13 +21,14 @@ insert into employee values
 
 select * from employee;
 
-
-create table employee(
+-- Create employee table with default salary
+create table employe(
 emp_id int primary key,
-salary int default 25000);
+salary int default 25000      -- Default salary if not provided 
+);                    
 
-insert into employee(emp_id) values (110);
-select * from employee;
+insert into employe(emp_id) values (110);
+select * from employe;
 
 
 
