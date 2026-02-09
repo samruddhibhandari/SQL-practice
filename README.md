@@ -39,15 +39,22 @@ The goal of this repository is to build strong fundamentals through hands-on que
 - Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
 - String and numeric functions
 
----
+### Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
 
-## 🚀 Upcoming Topics
-(Actively learning and will be added soon)
+### Subqueries
+- Single-row subqueries
+- Multi-row subqueries
 
-- JOIN queries (INNER, LEFT, RIGHT)
-- Subqueries
-- UNION & UNION ALL
-- Views
+### Set Operations
+- UNION
+- UNION ALL
+
+### Views
+- Creating views
+- Using views for data abstraction
 
 ---
 
@@ -65,6 +72,6 @@ The goal of this repository is to build strong fundamentals through hands-on que
 ---
 
 ## 📌 Notes
-- Queries are written for learning purposes
-- Files are organized topic-wise
-- This repository will be updated regularly as I progress
+- Queries are written for learning and practice purposes
+- Files are organized topic-wise for easy reference
+- This repository represents a complete SQL practice workflow
